@@ -1,4 +1,4 @@
-const API_KEY ='AIzaSyDGichZAE89z8diW5XJU1JTKiT0i4Ogrdg';
+const API_KEY = API_KEY;
 const CALLBACK_NAME = 'gmapsCallback';
 
 
