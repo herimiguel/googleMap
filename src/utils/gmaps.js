@@ -1,5 +1,6 @@
-const API_KEY = 'AIzaSyDGichZAE89z8diW5XJU1JTKiT0i4Ogrdg';
+const API_KEY ='AIzaSyDGichZAE89z8diW5XJU1JTKiT0i4Ogrdg';
 const CALLBACK_NAME = 'gmapsCallback';
+
 
 let initialized = !!window.google;
 let resolveInitPromise;
@@ -30,6 +31,7 @@ export default function init() {
   script.async = true;
   script.defer = true;
   script.src = `https://maps.googleapis.com/maps/api/js?key=${API_KEY}&callback=${CALLBACK_NAME}`;
+  console.log(process.env);
   script.onerror = rejectInitPromise;
   document.querySelector('head').appendChild(script);
 

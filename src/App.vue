@@ -42,7 +42,7 @@ export default {
       const google = await gmapsInit();
       const geocoder = new google.maps.Geocoder();
       const map = new google.maps.Map(this.$el);
-     
+
 
       geocoder.geocode({ address: 'Chicago' }, (results, status) => {
         if (status !== 'OK' || !results[0]) {

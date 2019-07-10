@@ -10,6 +10,7 @@
   "dependencies": {
     "@google/markerclusterer": "^1.0.3",
     "core-js": "^2.6.5",
+    "dotenv": "^8.0.0",
     "google-maps": "^3.3.0",
     "vue": "^2.6.10"
   },
